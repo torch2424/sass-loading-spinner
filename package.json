@@ -1,0 +1,26 @@
+{
+  "name": "sass-loading-spinner",
+  "version": "1.0.0",
+  "description": "A css only, and sass importable, loading spinner",
+  "main": "index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torch2424/sass-loading-spinner.git"
+  },
+  "keywords": [
+    "sass",
+    "loading",
+    "spinner",
+    "css",
+    "style"
+  ],
+  "author": "Aaron Turner",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/torch2424/sass-loading-spinner/issues"
+  },
+  "homepage": "https://github.com/torch2424/sass-loading-spinner#readme"
+}

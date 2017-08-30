@@ -54,6 +54,12 @@ Here is how the body should be set up to use the loading spinner. I would sugges
 </body>
 ```
 
+If you would like to change the base color of the spinner, you can use the $spinner variable:
+
+```sass
+$spinner: #FF4A4A
+```
+
 ## Contributing
 
 Clone the project:

@@ -69,7 +69,7 @@ $spinner: #FF4A4A
 Clone the project:
 
 ```
-git clone https://github.com/torch2424/sass-bem-mixins.git
+git clone https://github.com/torch2424/sass-loading-spinner.git
 ```
 
 Install devDependencies:

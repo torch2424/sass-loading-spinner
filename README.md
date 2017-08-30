@@ -29,7 +29,7 @@ Simply import at the top of a sass file to get going:
 
 Please see the [docs](./docs) folder for a very simple example project that is on the [Github Pages](https://torch2424.github.io/sass-loading-spinner/).
 
-Here is how the body should be set up to use the loading spinner. I would suggest to apply style conditionally to each of the elements when determining your "loading" state. Each of these classes can be used independently of one another.
+Here is how the body should be set up to use the loading spinner. I would show each of the elements when determining your "loading" state. Each of these classes can be used independently of one another.
 
 ```html
 <body>
@@ -51,6 +51,10 @@ Here is how the body should be set up to use the loading spinner. I would sugges
     <div class="sass-loading-spinner__spinner">
     </div>
   </div>
+
+  <!-- App container element. If you don't have a container, I suggest moving everything in your <body>, into a container that way you can hide it when the loading state occurs. Also, please note, that the sass-loading-spinner__no-click class and aria-hidden attribute should be applied when loading starts, and removed when loading ends. -->
+  <main class="whatever-your-container-class-is sass-loading-spinner__no-click" aria-hidden>
+  </main>
 </body>
 ```
 

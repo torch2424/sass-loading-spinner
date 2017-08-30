@@ -77,7 +77,7 @@
 </head>
 <body>
     <div class="sass-loading-spinner__dark-overlay">
-      sass-loading-spinner__dark-overlay--no-touch
+      sass-loading-spinner__dark-overlay
     </div>
 
     <div class="sass-loading-spinner__modal">
@@ -101,14 +101,15 @@
       </pre>
     </div>
 
-    <div class="app-container">
-      <div class="cant-touch-this" aria-hidden="">
-        Hey look at me! You can&apos;t click / tap / touch this button inside the app container element that has the class &quot;sass-loading-spinner__no-click&quot;! You may also want to add the aria-hidden attribute here for a11y (accessiblity).
+    <div class="app-container sass-loading-spinner__no-click" aria-hidden="">
+      <div class="cant-touch-this">
+        Hey look at me! You can&apos;t click / tap / touch this button inside the app container element that has the class &quot;sass-loading-spinner__no-click&quot;! You may also want to add the aria-hidden attribute to the container here for a11y (accessiblity).
         <button>
           Can&apos;t click this
         </button>
       </div>
     </div>
+
 
 
 </body></html>

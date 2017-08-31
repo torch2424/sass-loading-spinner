@@ -1,6 +1,6 @@
 {
   "name": "sass-loading-spinner",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A css only, and sass importable, loading spinner",
   "main": "index.scss",
   "scripts": {

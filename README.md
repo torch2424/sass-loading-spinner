@@ -20,7 +20,7 @@ npm install --save sass-loading-spinner
 Simply import at the top of a sass file to get going:
 
 ```scss
-@import 'node_modules/sass-loading-spinner/index.scss';
+@import './node_modules/sass-loading-spinner/index.scss';
 
 // Other Sass down here...
 ```
